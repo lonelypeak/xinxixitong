@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>信息系统调用</title>
+    <style>
+        /* 页面样式 */
+        body {
+            background-image: url(../img/背景图片.jpg);
+            background-size:cover;
+                background-repeat:no-repeat;
+                position:relative;
+                overflow:hidden;
+
+            margin: 0;
+            padding: 0;
+        }
+
+
+        /* 标题样式 */
+        h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight:bold;
+            text-align: center;
+            color:black;
+            margin-top: 30px;
+            font-size:60px;
+
+        }
+        h2{
+            font-size: 40px;
+        }
+        /* 四栏布局 */
+        .container {
+            width: 90%;
+            display: flex;
+            justify-content: space-between; /*水平居中*/
+            /* align-items: center; 垂直居中*/
+            margin: 100px;
+            padding: 100px 0;
+        }
+        /*列表*/
+        .column {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin: 0 10px;
+            box-shadow: 0 2px 5px rgb(0, 38, 255) /*添加阴影效果*/
+        }
+
+            .column h2 {
+                text-align: center;
+                color:black;
+            }
+            /*列表内容*/
+            .column ul {
+                list-style-type: none;
+                padding: 0;
+            }
+            /*列表项内容*/
+            .column li {
+                margin-bottom: 20px;
+                font-weight:bold;
+                font-size:24px;
+            }
+            
+        /*未被访问的链接*/
+        a:link {
+            color:black;
+        }
+        /*已被访问的链接*/
+        a:visited {
+            color:black;
+        }
+        /*将鼠标悬停在链接上*/
+        a:hover {
+            color:blue;
+        }
+        /*被选择的链接*/
+        a:active {
+            color:blue;
+        }
+
+    </style>
+</head>
+
+
+
+
+<body>
+    <h1>信息系统调用导航</h1>
+    <div class="container">
+        <div class="column">
+            <h2><a href="../主页面/通用系统-页面.html" target="_blank">通用系统</a></h2>
+            <ul>
+                <li>1、上海市政总院智慧勘察管理系统</li>
+                <li>2、市政院bim一体化管理平台</li>
+                <li>3、。。。</li>
+            </ul>
+        </div>
+
+
+
+
+
+        <div class="column">
+            <h2><a href="../主页面/工程项目管理系统-页面.html" target="_blank">工程项目管理系统</a></h2>
+            <ul>
+                <li>1、CBIM数字建管平台</li>
+                <li>2、BIM+GIS可视化项目管控系统</li>
+                <li>3、BIM协调管理系统</li>
+                <li>4、BIM工程项目管理平台</li>
+                <li>5、。。。</li>
+                <li>6、。。。</li>
+            </ul>
+        </div>
+
+
+
+
+
+
+        <div class="column">
+            <h2><a href="../主页面/运维管控平台-页面.html" target="_blank">运维管控平台</a></h2>
+            <ul>
+                <li>1、光明园一体化门户</li>
+                <li>2、协同管理平台</li>
+                <li>3、数字化管理平台</li>
+                <li>4、一体化管控平台</li>
+                <li>5、。。。</li>
+            </ul>
+        </div>
+
+        <div class="column">
+            <h2><a href="../主页面/其他-页面.html" target="_blank">其他</a></h2>
+            <ul>
+                <li>1、数字设计底座</li>
+                <li>2、超图引擎服务发布</li>
+                <li>3、数字院数字城市所工时平台</li>
+                <li>4、SMEDI模型展示中心(BIMVIZ)</li>
+                <li>5、。。。</li>
+                <li>6、。。。</li>
+            </ul>
+        </div>
+
+        
+
+
+    </div>
+</body>
+</html>
